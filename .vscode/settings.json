@@ -1,0 +1,17 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "html",
+    "vue"
+  ],
+  // Two settings bellow (esbenp.prettier-vscode needed for auto fixed)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
